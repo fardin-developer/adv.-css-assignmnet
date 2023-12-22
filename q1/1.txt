@@ -1,0 +1,9 @@
+The purpose of using var in CSS variables includes:
+
+Reusability: CSS variables allow you to define a value in one place and reuse it in multiple locations. This promotes consistency and makes it easier to update styles across your entire stylesheet by modifying a single variable.
+
+Maintainability: CSS variables make it easier to manage and organize your styles. By assigning names to commonly used values, you create a clear and maintainable structure in your CSS code.
+
+Dynamic Changes: CSS variables can be dynamically changed using JavaScript. This makes it possible to create themes or respond to user interactions by updating variable values on the fly.
+
+Scope: CSS variables have a scope, which means they can be defined globally or scoped to a specific selector. This flexibility allows you to control where a variable is applicable.

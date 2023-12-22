@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+    <h1 style="color: green;">Additionally I added rotation animation.<br> <span style="color:blue;font-style: italic;">        We can pause it and see the exact example image
+    </span> 
+        <span style="color: red;">Click below Button:-</span>
+    </h1>
+    <button id="toggleAnimation">Click Here</button>
+
+    <div class="cube-container">
+        <div class="cube" id="rotatingCube">
+            <div class="face front">front</div>
+            <div class="face back">back</div>
+            <div class="face left">left</div>
+            <div class="face right">right</div>
+            <div class="face top">top</div>
+            <div class="face bottom">bottom</div>
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.getElementById('toggleAnimation');
+        const rotatingCube = document.getElementById('rotatingCube');
+
+        toggleButton.addEventListener('click', () => {
+            rotatingCube.classList.toggle('paused');
+        });
+    </script>
+</body>
+
+</html>

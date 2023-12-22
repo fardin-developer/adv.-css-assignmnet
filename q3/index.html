@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <style>
+        body{
+            background-color: #b9b9b9;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            border: 10px solid white;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 250px;
+            border-top: 10px solid rgb(215, 37, 67);
+            animation: animate 1.3s linear infinite;
+        }
+        @keyframes animate {
+            0%{
+                rotate: 0deg;
+            }
+            50%{
+                rotate: 300deg;
+            }
+            100%{
+                rotate: 360deg;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">
+
+    </div>
+</body>
+</html>
